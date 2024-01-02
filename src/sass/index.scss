@@ -1,2 +1,29 @@
 @import './common';
 @import './example';
+@import './styles.scss';
+
+.search-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+padding: 10px;
+  background-color: #a408ff;
+}
+
+.search-form input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+.search-form button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  padding: 10px 20px;
+ }
+
+.search-form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
